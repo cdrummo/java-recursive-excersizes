@@ -1,3 +1,3 @@
-# Java Recursive Excersizes
+# Java Recursive Exersizes
 
 Recursive programs that I wrote in Java.
