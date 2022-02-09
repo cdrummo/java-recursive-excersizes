@@ -1,6 +1,6 @@
 /********************************************************************************
 *This class will create circles objects when you click. the circles will be	*
-* drawn recursively "every other line".						*
+*drawn recursively "every other line".						*
 *										*
 * @Author: Connor_Drummond							*
 * @Version: September 29, 2019							*
