@@ -16,20 +16,13 @@ import java.awt.event.*;
 import java.util.ArrayList;
 
 /********************************************************************************
-*					Main					*
+*					Classes					*
 ********************************************************************************/
 
 public class RecursiveCircles extends JPanel{
 
     static JFrame frame = new JFrame("Circles"); 		//Creates JFrame
     static ArrayList<Circle> circleList = new ArrayList<>();    //Array that stores circles
-
-    public static void main(String[] args) {
-        CircleGUI gui = new CircleGUI();                   	//Calls the method Assignment4
-        frame.setBounds(200, 200, 800, 500);                    //Default boundaries for JFrame
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  	//Ends when window is closed
-        frame.setVisible(true);                                 //Makes JFrame visible
-    }
 
     /*Creates circle objects and draws them*/
     public class Circle {
@@ -120,6 +113,17 @@ public class RecursiveCircles extends JPanel{
         for (int i = 0; i < circleList.size(); i++) {
             circleList.get(i).draw(g);
         }
+    }
+
+/********************************************************************************
+*					Main					*
+********************************************************************************/
+
+    public static void main(String[] args) {
+        CircleGUI gui = new CircleGUI();                   	//Calls the method Assignment4
+        frame.setBounds(200, 200, 800, 500);                    //Default boundaries for JFrame
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  	//Ends when window is closed
+        frame.setVisible(true);                                 //Makes JFrame visible
     }
 
 }
