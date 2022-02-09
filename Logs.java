@@ -1,18 +1,18 @@
 /********************************************************************************
-*This class will take a range, starting number and interval from the user, 	    *
-*and display the log value of numbers in the range over the interval.		    *
-*										                                        *
-*@Author:Connor_Drummond							                            *
-*@Version:September 29, 2019							                        *
+*This class will take a range, starting number and interval from the user,      *
+*and display the log value of numbers in the range over the interval.           *
+*                                                                               *
+*@Author:Connor_Drummond                                                        *
+*@Version:September 29, 2019                                                    *
 ********************************************************************************/
 
 /********************************************************************************
-*	            	    			Imports				                    	*
+*                                    Imports                                    *
 ********************************************************************************/
 import java.util.Scanner;
 
 /********************************************************************************
-*			                		Classes				                    	*
+*                                    Classes                                    *
 ********************************************************************************/
 
 public class Logs {
@@ -42,7 +42,7 @@ public class Logs {
     }
 
 /********************************************************************************
-*			                		Main			                    		*
+*                                        Main                                   *
 ********************************************************************************/
 
     public static void main(String[] args) {
